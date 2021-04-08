@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* All Cards CSS */
+.card {
+    width: 28%;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 270px;
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.card > img {
+    position: relative;
+    top: 9em;
+    left: 18em;
+}
+
+.container > h2 {
+    color: #52535D;
+    font-size: 21px;
+    margin-bottom: 0.5em;
+}
+
+.container > p {
+    color: #c9c9cc;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card > .container {
+    position: relative;
+    bottom: 20px;
+    text-align: left;
+    bottom: 2.7em;
+    left: 2em;
+}
+
+/* End All Cards CSS */
+
+/* Header Section */
+
+header {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+
+.heading-1 > h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: #DBDAE0;
+}
+
+.heading-2 > h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #4E5362;
+}
+
+.paragraph-1 {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #D9D9DB;
+}
+
+/* End Header Section */
+
+/* Cards */
+section {
+    margin-bottom: 12em;
+}
+
+.card-1 {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin: auto;
+    margin-top: 3em;
+}
+
+.card-2 {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: auto;
+}
+
+.card-3 {
+    margin-bottom: auto;
+    margin-top: -28em;
+    margin-left: 4.5em;
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.card-4 {
+    position: absolute;
+    left: 67%;
+    width: 28%;
+    margin-bottom: auto;
+    margin-top: -17em;
+    border-top: 5px solid hsl(211, 85%, 63%);
+}
+/* Cards */
+
+@media only screen and (max-width: 400px) {
+    .card {
+        margin-left: 1em;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .card {
+        width: 25em;
+        margin: auto;
+        margin-top: 2em
+      }
+
+      .card-1 {
+        margin-top: 3em
+      }
+    
+      .card-4 {
+        position: relative;
+        left: 0.3%;
+      }
+}
+  
